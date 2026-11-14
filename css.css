@@ -1,0 +1,53 @@
+body {
+  color: white;
+  background-color: #2e0101;
+  font-family: Arial;
+  margin: 40px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+.fire {
+  color: #fff;
+  text-align: center;
+  text-shadow:
+    0 0 5px orange,
+    0 0 10px orange,
+    0 0 20px red,
+    0 0 40px red;
+}
+.fire {
+  color: white;
+  text-align: center;
+  animation: plomien 1s infinite alternate;
+}
+
+@keyframes plomien {
+  from {
+    text-shadow:
+      0 0 5px orange,
+      0 0 10px red;
+  }
+
+  to {
+    text-shadow:
+      0 0 10px yellow,
+      0 0 20px orange,
+      0 0 35px red;
+  }
+}
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
